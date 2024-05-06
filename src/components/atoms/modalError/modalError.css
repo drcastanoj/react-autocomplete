@@ -1,0 +1,21 @@
+.modal {
+  z-index: 100;
+  width: 300px;
+  background-color: white;
+  color: #202326;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.modal-body {
+  font-size: 1rem;
+}
+
+.modal-action {
+  display: flex;
+  justify-content: end;
+}

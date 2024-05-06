@@ -1,0 +1,19 @@
+.home article {
+  padding: 1rem;
+}
+
+.home h1 {
+  font-size: 3rem;
+  color: #e8f3ff;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .home {
+    padding: 3px;
+  }
+
+  .home h1 {
+    font-size: 5rem;
+  }
+}

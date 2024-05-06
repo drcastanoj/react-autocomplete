@@ -1,0 +1,12 @@
+.card-show {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .card-show {
+    padding: 5rem;
+  }
+}

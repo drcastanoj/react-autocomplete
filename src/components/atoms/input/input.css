@@ -1,0 +1,29 @@
+.label {
+  border-radius: 2rem;
+  border: 1px solid white;
+  background-color: transparent;
+  font-size: 1.5rem;
+  position: relative;
+  height: 1.5rem;
+}
+
+.label input {
+  position: absolute;
+  background: transparent;
+  border: 0;
+  left: 1rem;
+  top: 0;
+  bottom: 0;
+  right: 2rem;
+  color: white;
+}
+.label img {
+  position: absolute;
+  width: 1.2rem;
+  right: 10px;
+  top: 2px;
+}
+
+.label input:focus-visible {
+  outline: 0;
+}

@@ -1,0 +1,39 @@
+.autocomplete {
+  position: relative;
+  min-width: 260px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.options {
+  position: absolute;
+  background-color: white;
+  right: 0;
+  left: 0;
+  top: 110%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: #202326;
+}
+
+.option {
+  font-size: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.option:hover,
+.focused {
+  background-color: #e8f3ff;
+}
+
+.highlight {
+  background-color: #9098a3;
+}
+
+@media (min-width: 768px) {
+  .autocomplete {
+    margin: auto;
+  }
+}
